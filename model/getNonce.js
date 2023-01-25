@@ -1,4 +1,4 @@
-const { TextDecoder, TextEncoder } = require("text-encoding/index.js");
+const { TextDecoder, TextEncoder } = require("util");
 const crypto = require("crypto-browserify/index.js");
 const { Serialize } = require("eosjs");
 // const { exec } = require("child_process");
